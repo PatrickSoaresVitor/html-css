@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmentes diminua e aumenta o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="imagen flexivel">
+    </picture>
+    <h1>Audios</h1>
+
+    <audio src="midia/Blue Ribbons - TrackTribe.mp3" controls autoplay></audio>
+    <audio src="midia/Josef Suk, Serenade, Op 6 - A Far Cry.mp3" controls autoplay></audio>
+    <h2>audio com mais de uma fonte caso o site não carrega</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Blue Ribbons - TrackTribe.mp3" type="audio/mpeg">
+        <source src="midia/Blue Ribbons - TrackTribe.mp3" type="audio/mp3">
+        <p>infelizmente seu navegador não consegue reproduzir audio <a href="midia/Blue Ribbons - TrackTribe.mp3">clique para baixar</a></p>
+    </audio>
+    <h1>teste</h1>
+    <p>estou testando progamar usando o anydesk e parece estar funcionando tranquilo, enquanto a internet é boa depois terei que testar com a internet ruim</p>
+    <h1>teste 2</h1>
+    <p>acabei de testar com a internet do celular e não parece ruim está mesma coisa da internt de casa parece até melhor não sei como esplicar</p>
+    <h1>teste 3</h1>
+    <p>Estou testando com a tela ampliada ficou muito melhor para escrever e digitar. Está muito tranquilo por enquanto depois terei que testar com outro aplicativo</p>
+
+</body>
+</html>
