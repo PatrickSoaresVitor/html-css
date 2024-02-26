@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&family=Special+Elite&display=swap');
+
+body{
+    background-color: #4B61A6;
+}
+.tituloprincipal{
+    text-align: center;
+    font-family: "special elite";
+    font-size: 3.5em;
+}
+main{
+    background-image: linear-gradient(to right, #F2F2F2);
+}

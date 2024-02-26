@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+h1{
+    color: chartreuse;
+    font-size: 2em;
+    font-family: fantasy;
+}
+.class-id{
+  color: brown;    
+}
+a#link-youtube{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 1.8em;
+    font-family: serif;
+}
+.link:hover{
+    color: black;
+}
+a#link-youtube:hover{
+    color: black;
+}
+.link{
+    color: rgb(141, 141, 141);
+    font-family: serif;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+.link:visited{
+color: rgb(255, 139, 139);
+}
+.elementos::after{
+   content: '&*&¨8';
+   color: blue;
+}

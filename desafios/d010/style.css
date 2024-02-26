@@ -1,0 +1,105 @@
+@charset "UTF-8";
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to top, #1A5C38, #30AB67, #3CD883);
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+header > h1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    margin: auto;
+}
+header > p{
+    width: 380px;
+    margin: auto;
+}
+nav{
+    background-color: #1A5C38;
+    color: white;
+    margin: 0px;
+}
+nav > p >a{
+    text-decoration: none;
+    color: white;
+    margin: 6px;
+
+}
+nav > p{
+    margin: 0px;
+    color: white;
+    padding: 5px;
+}
+.main1{
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    text-align: justify;
+    padding: 20px;
+}
+.main2{
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 20px;
+}
+main > h1{
+    color: #1E5F3C;
+    margin: 0px;
+}
+main >  h2{
+    color: #1E5F3C;
+    background-image: linear-gradient(to right, #C7ECD7, #FFFFFF);
+    font-family: "android";
+    padding: 5px;
+}
+footer{
+    background-color: #1A5C38;
+    text-align: center;
+    font-size: 8px;
+    color: white;
+}
+main#video1{
+    background-color: #1A5C38;
+    margin: auto;
+    width: 800px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: none;
+}
+main#video1 > section#video{
+    background-color: #1A5C38;
+    text-align: center;
+    margin: 0px;
+}
+main > section#tabela{
+    background-color: #C5EBD6;
+    margin: 0px;
+    padding: 8px;
+    border-radius: 0px 0px 8px 8px;
+}
+main > section#tabelatitulo{
+    background-color: #2FA866;
+    margin: 0px;
+    padding: 8px;
+    border-radius: 8px 8px 0px 0px;
+}
+main > section#tabelatitulo > h2{
+    background-color: #2FA866;
+    margin: 0px;
+    color: white;
+}
+ul{
+    width: 300px;
+}
+
