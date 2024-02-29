@@ -1,0 +1,30 @@
+@charset "UTF-8";
+p {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
+
+#azul {
+    color: blue;
+}
+
+div h3 {
+    color: yellow;
+}
+.desenho{
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.bloco {
+    height: 80px;
+    bottom: 0px;
+    margin: 0 auto;
+
+}
+.personagem {
+    height: 180px;
+}
