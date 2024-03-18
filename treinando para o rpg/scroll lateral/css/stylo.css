@@ -1,13 +1,55 @@
 @charset "UTF-8";
+*{
+    margin: 0;
 
+}
 :root {
     --c1: #D9BFA9;
     --c2: #A69281;
     --c3: #26221E;
     --c4: #F2D8C2;
-    --c5: #595047;
+    --c5: #c98d51;
     --c6: #F7F1E4;
     --c7: #A17749;
     --c8: #FAFAF8;
   }
-  
+  main{
+    background-color: #F1EAE0;
+    padding: 30px;
+    min-height: 100vh;
+    position: fixed;
+    min-width: 2000px;
+    overflow-y: auto;
+    
+  }
+  main .personagem{
+    display: flex;
+    position: fixed;
+    overflow-x: auto;
+    min-height: 100vh;
+    max-width: 100%;
+    
+  }
+  main h2{
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  main .personagem a{
+    text-align: center;
+    text-decoration: none;
+
+    padding: 5px 30px 30px 30px;
+    margin:10px 15px;
+    background-color: #B59E7A;
+    border-radius: 15px;
+    box-shadow: 0 0 11px 4px rgba(0, 0, 0, 0.336);
+  }
+  main .personagem a p{
+    margin-bottom: 10px;
+  }
+
+  main .personagem a img{
+    width: 300px;
+    height: 460px;
+    border-radius: 15px;
+  }
