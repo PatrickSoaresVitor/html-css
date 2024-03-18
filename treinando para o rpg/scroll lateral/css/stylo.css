@@ -13,18 +13,43 @@
     --c7: #A17749;
     --c8: #FAFAF8;
   }
+  header{
+    background-color: var(--c7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  header ul li{
+    margin: 10px 0 ;
+  }
+  header ul li a {
+    
+    background-color: var(--c3);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    color: white;
+  }
   main{
     background-color: #F1EAE0;
     padding: 30px;
     min-height: 100vh;
-    position: fixed;
-    min-width: 2000px;
-    overflow-y: auto;
+    position: relative;
+  
+  
     
   }
   main .personagem{
     display: flex;
-    position: fixed;
+  
     overflow-x: auto;
     min-height: 100vh;
     max-width: 100%;
@@ -37,19 +62,28 @@
   main .personagem a{
     text-align: center;
     text-decoration: none;
-
+    height: 490px;
     padding: 5px 30px 30px 30px;
     margin:10px 15px;
     background-color: #B59E7A;
     border-radius: 15px;
-    box-shadow: 0 0 11px 4px rgba(0, 0, 0, 0.336);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.336);
   }
   main .personagem a p{
     margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
   }
 
   main .personagem a img{
     width: 300px;
     height: 460px;
     border-radius: 15px;
+  }
+  footer{
+    background-color: var(--c7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
   }
