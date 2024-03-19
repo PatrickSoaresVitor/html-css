@@ -50,7 +50,7 @@
   main .personagem{
     display: flex;
   
-    overflow-x: auto;
+    overflow-x: scroll ;
     min-height: 100vh;
     max-width: 100%;
     
@@ -86,4 +86,18 @@
     text-align: center;
     padding: 10px;
     font-size: 13px;
+  }
+  #divponto{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    right: 20px
+    
+  }
+  #botao{
+    height: 50px;
+    color: var(--c5);
+    font-size: 50px;
+    cursor: pointer;
+
   }

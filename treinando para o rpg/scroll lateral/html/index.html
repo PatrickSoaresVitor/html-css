@@ -37,10 +37,20 @@
                     <p>personagem 5</p>
                     <img src="../img/personagem (5).jpeg" alt="personagem5">
                 </a>
+                <div id="divponto">
+                    <span id="botao" type="button">&#x25B6</span>
+                </div>
             </div>
         </main>
         <footer>
             <span>Rpg dos fodão</span>
         </footer>
+        <script>
+            const botao = document.querySelector('#botao')
+
+            botao.addEventListener('click', ()=>{
+            window.scroll({top: window.moveBy(4,4), behavior: "smooth"})
+})
+        </script>
     </body>
 </html>
