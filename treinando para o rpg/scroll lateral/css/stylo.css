@@ -123,14 +123,35 @@
     cursor: pointer;
 
   }
-  main div#personagem a#mais{
-    background-color: transparent;
-    align-items: center;
+  main div#personagem div#mais-div{
+    
     text-align: center;
+    height: 490px;
+    min-width: 300px;
+    padding: 5px 30px 30px 30px;
+    margin:10px 15px;
+    
   }
-  main div#personagem a span#mais-span{ 
+  main div#personagem div p{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  main div#personagem div a#mais{
+  
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+  }
+  main div#personagem div a span#mais-span{ 
+    width: 200px;
+    height: 200px;
     color: white; 
-    font-size: 360px;
+    font-size: 300px;
     font-weight: bold;
-    margin-top: 100px;
+    
+
   }
