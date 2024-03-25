@@ -101,7 +101,7 @@
   span#botao{
     width: 60px;
     height: 60px;
-    color: var(--c5);
+    color: black;
 
     font-size: 50px;
     cursor: pointer;
@@ -118,8 +118,19 @@
   }
   span#botao2{
     height: 50px;
-    color: var(--c5);
+    color: black;
     font-size: 50px;
     cursor: pointer;
 
+  }
+  main div#personagem a#mais{
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+  }
+  main div#personagem a span#mais-span{ 
+    color: white; 
+    font-size: 360px;
+    font-weight: bold;
+    margin-top: 100px;
   }
