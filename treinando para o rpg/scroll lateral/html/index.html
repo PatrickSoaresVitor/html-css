@@ -16,7 +16,7 @@
         </header>
         <main>
             <h2>Escolha seu personagem</h2>
-            <div class="personagem">
+            <div id="personagem">
                 <a href="personagem1.httml">
                     <p>personagem 1</p>
                     <img src="../img/personagem (1).jpeg" alt="personagem1">
@@ -40,16 +40,24 @@
                 <div id="divponto">
                     <span id="botao" type="button">&#x25B6</span>
                 </div>
+                <div id="div2">
+                    <span id="botao2" type="button">&#x25B6</span>
+                </div>
             </div>
         </main>
         <footer>
             <span>Rpg dos fodão</span>
         </footer>
         <script>
+            var elem = document.querySelector('#personagem')
             const botao = document.querySelector('#botao')
+            const botao2 = document.querySelector('#botao2')
             botao.addEventListener('click', ()=>{
-            window.#personagem.scroll({left:200, behavior: "smooth"})
-})
+                elem.scrollLeft +=390
+            })
+            botao2.addEventListener('click', ()=>{
+                elem.scrollLeft -=390
+            })
         
         </script>
     </body>
