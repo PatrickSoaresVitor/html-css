@@ -47,19 +47,21 @@
   
     
   }
-  main .personagem{
+  main div#personagem{
     display: flex;
-  
+    background-color: red;
     overflow-x: scroll ;
-    min-height: 100vh;
-    max-width: 100%;
+  
     
+  }
+  main div#personagem::-webkit-scrollbar{
+   display: none;
   }
   main h2{
     text-align: center;
     margin-bottom: 14px;
   }
-  main .personagem a{
+  main div#personagem a{
     text-align: center;
     text-decoration: none;
     height: 490px;
@@ -69,13 +71,13 @@
     border-radius: 15px;
     box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.336);
   }
-  main .personagem a p{
+  main div#personagem a p{
     margin-bottom: 10px;
     color: white;
     font-size: 20px;
   }
 
-  main .personagem a img{
+  main div#personagem a img{
     width: 300px;
     height: 460px;
     border-radius: 15px;
@@ -87,17 +89,69 @@
     padding: 10px;
     font-size: 13px;
   }
-  #divponto{
-    display: flex;
-    align-items: center;
-    position: sticky;
-    right: 20px
-    
+  div#divponto{
+    display: block;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: 319px;
+    width: 60px;
+    height: 60px;
   }
-  #botao{
-    height: 50px;
-    color: var(--c5);
+  span#botao{
+    width: 60px;
+    height: 60px;
+    color: black;
+
     font-size: 50px;
     cursor: pointer;
+  
+  }
+  div#div2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 40px ;
+    top: 319px;
+    transform: scaleX(-1)
+    
+  }
+  span#botao2{
+    height: 50px;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+
+  }
+  main div#personagem div#mais-div{
+    
+    text-align: center;
+    height: 490px;
+    min-width: 300px;
+    padding: 5px 30px 30px 30px;
+    margin:10px 15px;
+    
+  }
+  main div#personagem div p{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  main div#personagem div a#mais{
+  
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+  }
+  main div#personagem div a span#mais-span{ 
+    width: 200px;
+    height: 200px;
+    color: white; 
+    font-size: 300px;
+    font-weight: bold;
+    
 
   }
