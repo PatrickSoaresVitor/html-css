@@ -36,9 +36,11 @@ main{
 }
 main h2, h3, h4{
     text-align: center;
+    margin: 15px 0;
 }
 main p{
-    margin-top: 10px;
+    margin: 10px 0;
+    line-height: 1.5em;
 }
 footer{
     text-align: center;
